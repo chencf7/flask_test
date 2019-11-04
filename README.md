@@ -7,10 +7,10 @@
 2. 以下命令用于安装virtualenv
 > pip install virtualenv
 3. 在已创建的项目根目录下使用 virtualenv 创建虚拟python环境
-> 执行以下命令 
-> virtualenv --python=[C:\Python27\python.exe]可选路径，2.7还是3.6 [venv]任取虚拟环境文件夹名称
-> virtualenv --python=C:\Python27\python.exe venv
-> 若不指定--python，则virtualenv会使用默认path配置的python版本创建python虚拟环境
+> + 执行以下命令 
+> + virtualenv --python=[C:\Python27\python.exe]可选路径，2.7还是3.6 [venv]任取虚拟环境文件夹名称
+> + virtualenv --python=C:\Python27\python.exe venv
+> + 若不指定--python，则virtualenv会使用默认path配置的python版本创建python虚拟环境
 
 **window下激活虚拟python环境**
 + 激活 .\venv\Scripts\activate.bat
