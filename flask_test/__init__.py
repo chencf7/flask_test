@@ -14,7 +14,7 @@ def create_app(app_env):
     return render_template('index.html')
 
   # 注册api blueprint
-  from test_flask.api import bp_api as api_v1
+  from flask_test.api import bp_api as api_v1
   app.register_blueprint(api_v1, url_prefix='/api')
   # from app.api_v1 import api as api_v1_0_blueprint
   # app.register_blueprint(api_v1_0_blueprint, url_prefix='/api/v1.0')

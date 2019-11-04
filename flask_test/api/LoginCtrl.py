@@ -2,7 +2,7 @@
 
 from flask import current_app, request, make_response, jsonify, session
 
-from test_flask.api import bp_api
+from flask_test.api import bp_api
 
 # 测试方法
 @bp_api.route('/test', methods=['GET'])
