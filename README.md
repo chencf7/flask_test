@@ -71,3 +71,5 @@
 > + Set-ExecutionPolicy -Scope CurrentUser
 > + 输入：remotesigned即可
 
+### python flask部署到服务器
+部署方式：linux+apache+wsgi，热加载？？？服务器
