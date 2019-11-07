@@ -1,0 +1,34 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: 当前文件",
+      "type": "python",
+      "request": "launch",
+      "pythonPath": "C:\\Code\\flask_test\\venv\\Scripts\\python.exe",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: test_Flask",
+      "type": "python",
+      "request": "launch",
+      "module": "flask",
+      "pythonPath": "C:\\Code\\flask_test\\venv\\Scripts\\python.exe",
+      "env": {
+        "FLASK_APP": "run.py",
+        "FLASK_ENV": "development",
+        "FLASK_DEBUG": "0"
+      },
+      "args": [
+        "run",
+        "--no-debugger",
+        "--no-reload"
+      ],
+      "jinja": true
+    }
+  ]
+}

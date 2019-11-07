@@ -10,6 +10,7 @@
 > + 执行以下命令 
 > + virtualenv --python=[C:\Python27\python.exe]可选路径，2.7还是3.6 [venv]任取虚拟环境文件夹名称
 > + virtualenv --python=C:\Python27\python.exe venv
+> + virtualenv --p "C:\Python27\python.exe" venv
 > + 若不指定--python，则virtualenv会使用默认path配置的python版本创建python虚拟环境
 
 **window下激活虚拟python环境**
@@ -59,17 +60,25 @@
 **2. python flask**
 + blueprint
 > flask的蓝图就相当于Django的urls.py文件，我们就可以定义多个应用路由来使用，这里的蓝图起的别名就相当于namespace
-
++ flask_scripts
+> 向命令行解释器添加自定义命令
++ flask_migrate
++ flask_sqlalchemy
+> [Flask-SQLAlchemy的使用](https://www.jianshu.com/p/b729e84fae4f)
+> 对比sqlalchemy的区别
 
 
 ### VsCode激活virtualenv报错
 1. .\venv\Scripts\activate
 2. 报错，无法加载文件 C:\Code\test-flask\venv\Scripts\activate.ps1
-3. 在终端，依次执行以下命令
+3. 在终端cmd，依次执行以下命令
 > + get-executionpolicy
 > + set-executionpolicy remotesigned，若报错，使用管理员打开cmd执行或者执行下一步
 > + Set-ExecutionPolicy -Scope CurrentUser
 > + 输入：remotesigned即可
+
+4. 使用vscode重新编译flask/django项目时，控制台会输出大量错误无效的信息，还是建议使用pycharm进行开发
+
 
 ### python flask部署到服务器
 部署方式：linux+apache+wsgi，热加载？？？服务器
