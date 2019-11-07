@@ -12,13 +12,13 @@ class SpiderEntry(object):
         self.urls = urlqueue.UrlManager()
         self.downloader = htmldownload.HtmlPageLoader()
 
-    # 爬虫调度程序
+    # 爬虫调度程序，深度爬取/广度爬取
     def dispatch(self, url):
-        print(url)
+        # print(url)
         if url is None:
             return None
         self.urls.add_one_url(url)
-        while self.urls.has_new_url():
+        while self.urls.has_url():
             try:
                 current_url = self.urls.get_url()
             except Exception as err:
@@ -26,9 +26,7 @@ class SpiderEntry(object):
 
 
 if __name__ == '__main__':
-    print('开始爬取数据：')
-    # print('entry url: {}'.format(entry_url))
-    _st = time.time()
+    # 直接执行报错，引入错误，到venv根目录的hello.py执行
     sp = SpiderEntry()
     sp.dispatch()
     pass

@@ -19,7 +19,7 @@ class UrlManager(object):
         for url in urls:
             self.add_one_url(url)
 
-    def has_new_url(self):
+    def has_url(self):
         return len(self.new_queue) != 0
 
     def get_url(self):
