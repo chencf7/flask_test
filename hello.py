@@ -26,7 +26,7 @@ if __name__ == '__main__':
     # print('开始爬取数据：')
     # print('entry url: {}'.format(entry_url))
     _st = time.time()
-    # spe = SpiderEntry()
-    # spe.dispatch(entry_url)
+    spe = SpiderEntry()
+    spe.dispatch(entry_url)
 
-    re_test()
+    # re_test()

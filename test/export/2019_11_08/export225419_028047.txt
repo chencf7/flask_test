@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+
+
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="referrer" content="always" />
+<meta name="description" content="GitHub是一个面向开源及私有软件项目的托管平台，因为只支持git 作为唯一的版本库格式进行托管，故名GitHub。GitHub于2008年4月10日正式上线，除了Git代码仓库托管及基本的 Web管理界面以外，还提供了订阅、讨论组、文本渲染、在线文件编辑器、协作图谱（报表）、代码片段分享（Gist）等功能。目前，其注册用户已经超过350万，托管版本数量也是非常之多，其中不乏知名开源项目 Ruby on Rails、jQuery、python 等。2018年6月4日，微软宣布，通过75亿美元的股票交易收购代码托管平台GitHub。2019年05月，《个人电脑杂志》网站报道，GitHub正遭到一名黑客的入侵。据称，这名黑客先擦除代码资源库，然后向用户索要赎金，作为恢复数据的交换。...">
+<title>github_百度百科</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
+
+<meta name="keywords" content="github gitub github基本功能 github版本历史 github内幕信息 githubWindows应用 github配置管理 github融资 github有关报道">
+<meta name="image" content="https://bkssl.bdimg.com/cms/static/baike.png">
+
+<meta name="csrf-token" content="">
+<meta itemprop="dateUpdate" content="2019-11-03 13:22:04" />
+
+<!--[if lte IE 9]>
+
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_46b3d0e.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common-base_9a9fb54.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_2890903.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/lib/larkplayer/larkplayer_981c735.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/lib/webuploader/webuploader_08d9db4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module_9d93046.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/announcement/announcement_cba33f4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/label/label_1b0bc0e.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_9c411cd.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/video/pageMask/pageMask_ff9a193.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/mainContent_98e3702.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaRelation_496a30a.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_3b0d7a5.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/toolButtons-n_8b4919b.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/userInfo-n_7e90184.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/searchHeader-n_f9a6e5b.css"/>    
+</head>
+
+
+
+
+<body class="wiki-lemma normal">
+
+
+<div class="header-wrapper pc-header-new">
+<div class="topbar cmn-clearfix">
+<ul class="wgt-userbar wgt-userbar-n" id="j-wgt-userbar">
+<li>
+<a href="http://www.baidu.com/">百度首页</a>
+</li>
+</ul>
+<div class="separator"></div>
+<div class="wiki-common-headTabBar">
+<a href="https://www.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=">网页</a>
+<a href="http://news.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=">新闻</a>
+<a href="https://tieba.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=">贴吧</a>
+<a href="https://zhidao.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://zhidao.baidu.com/search?pn=0&&rn=10&lm=0&fr=bks0000&word=">知道</a>
+<a href="http://music.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://music.baidu.com/search?f=ms&ct=134217728&ie=utf-8&rn=&lm=-1&pn=30&fr=bks0000&key=">音乐</a>
+<a href="http://image.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&word=">图片</a>
+<a href="http://v.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://www.baidu.com/sf/vsearch?pd=video&tn=vsearch&ie=utf-8&rsv_spt=17&wd=">视频</a>
+<a href="http://map.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://map.baidu.com/m?ie=utf-8&fr=bks0000&word=">地图</a>
+<a href="https://wenku.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&fr=bks0000&word=">文库</a>
+<b class="baike">百科</b>
+</div>
+</div>
+<div class="header">
+<div class="layout">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-main cmn-clearfix wgt-searchbar-large">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080011" name="word" type="text" autocomplete="off" autocorrect="off" value="github" /><button id="search" nslog="normal" nslog-type="10080008" type="button">进入词条</button><button id="searchLemma" nslog="normal" nslog-type="10080009" type="button">全站搜索</button><a class="help" href="/help" nslog="normal" nslog-type="10080010" target="_blank">帮助</a>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="clear" style="margin-right:8px;">清除历史记录</span><span id="close" nslog="normal" nslog-type="10080012">关闭</span>
+</li>
+</ul>
+</div></div>
+</div>
+<div class="declare-wrap" id="J-declare-wrap">
+<div class="declare" id="J-declare">声明：百科词条人人可编辑，词条创建和修改均免费，绝不存在官方及代理商付费代编，请勿上当受骗。<a class="declare-details" target="_blank" href="/common/declaration">详情>></a>
+<div class="close-btn" id="J-declare-close">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar-wrapper">
+<div class="wgt-navbar ">
+<div class="navbar-bg">
+<div class="navbar-bg-top">
+<div class="navbar-content layout">
+<div class="navbar-content-box">
+<dl class="index ">
+<dt><a href="/">首页</a></dt>
+<dd>
+<div><a href="/calendar/" target="_blank">历史上的今天</a></div>
+<div><a href="/vbaike/" target="_blank">百科冷知识</a></div>
+<div><a href="/vbaike#gallary" target="_blank">图解百科</a></div>
+</dd>
+</dl>
+<dl class="cat ">
+<dt><a>分类</a></dt>
+<dd>
+<div><a href="/art" target="_blank">艺术</a></div>
+<div><a href="/science" target="_blank">科学</a></div>
+<div><a href="/ziran" target="_blank">自然</a></div>
+<div><a href="/wenhua" target="_blank">文化</a></div>
+<div><a href="/dili" target="_blank">地理</a></div>
+<div><a href="/shenghuo" target="_blank">生活</a></div>
+<div><a href="/shehui" target="_blank">社会</a></div>
+<div><a href="/renwu" target="_blank">人物</a></div>
+<div><a href="/jingji" target="_blank">经济</a></div>
+<div><a href="/tiyu" target="_blank">体育</a></div>
+<div><a href="/lishi" target="_blank">历史</a></div>
+</dd>
+</dl>
+<dl class="second-know ">
+<dt><a>秒懂百科</a></dt>
+<dd><div><a href="https://child.baidu.com/" target="_blank">懂啦</a></div>
+<div><a href="/item/秒懂星课堂" target="_blank">秒懂星课堂</a></div>
+<div><a href="/item/秒懂大师说" target="_blank">秒懂大师说</a></div>
+<div><a href="/item/秒懂看瓦特" target="_blank">秒懂看瓦特</a></div>
+<div><a href="/item/秒懂五千年" target="_blank">秒懂五千年</a></div>
+<div><a href="/item/秒懂全视界" target="_blank">秒懂全视界</a></div>
+</dd>
+</dl>
+<dl class="special ">
+<dt><a>特色百科</a></dt>
+<dd><div><a href="/museum/" target="_blank">数字博物馆</a></div>
+<div><a href="/feiyi?fr=dhlfeiyi" target="_blank">非遗百科</a></div>
+<div><a href="https://shushuo.baidu.com/" target="_blank">百度数说</a></div>
+<div><a href="/city/" target="_blank">城市百科</a></div>
+<div><a href="/wikicategory/view?categoryName=恐龙大全" target="_blank">恐龙百科</a></div>
+<div><a href="/wikicategory/view?categoryName=多肉植物" target="_blank">多肉百科</a></div>
+</dd>
+</dl>
+<dl class="user ">
+<dt><a>用户</a></dt>
+<dd>
+<div><a href="/kedou/" target="_blank">蝌蚪团</a></div>
+<div><a href="/event/ranmeng/" target="_blank">燃梦计划</a></div>
+<div><a href="/task/" target="_blank">百科任务</a></div>
+<div><a href="/mall/" target="_blank">百科商城</a></div>
+</dd>
+</dl>
+<dl class="cooperation ">
+<dt><a>权威合作</a></dt>
+<dd>
+<div><a href="/operation/cooperation#joint" target="_blank">合作模式</a></div>
+<div><a href="/operation/cooperation#issue" target="_blank">常见问题</a></div>
+<div><a href="/operation/cooperation#connection" target="_blank">联系方式</a></div>
+</dd>
+</dl>
+<div class="usercenter">
+<div><a href="/usercenter" target="_blank"><em class="cmn-icon cmn-icons cmn-icons_navbar-usercenter"></em>个人中心</a></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="body-wrapper">
+<div class="before-content">
+</div>
+<div class="content-wrapper">
+<div class="content">
+<div class="personal-content">
+</div>
+<div class="main-content">
+<div class="top-tool ">
+<a class="add-sub-icon top-tool-icon" href="javascript:;" title="添加义项" nslog-type="50000101">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_add-subLemma-solid"></em>
+</a>
+<a href="/divideload/github" title="拆分词条" target="_blank" class="split-icon top-tool-icon" style="display:none;" nslog-type="50000104">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lemma-split"></em>
+</a>
+<div class="top-collect top-tool-icon" nslog="area" nslog-type="50000102">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>
+<span class="collect-text">收藏</span>
+<div class="collect-tip">查看<a href="/uc/favolemma" target="_blank">我的收藏</a></div>
+</div>
+<a href="javascript:void(0);" id="j-top-vote" class="top-vote top-tool-icon" nslog-type="10060801">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em>
+<span class="vote-count">0</span>
+<span class="vote-tip">有用+1</span>
+<span class="voted-tip">已投票</span>
+</a><div class="bksharebuttonbox top-share">
+<a class="top-share-icon top-tool-icon" nslog-type="9067">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_share"></em>
+<span class="share-count" id="j-topShareCount">0</span>
+</a>
+<div class="new-top-share" id="top-share">
+<ul class="top-share-list">
+<li class="top-share-item">
+<a class="share-link bds_qzone"  href="javascript:void(0);" nslog-type="10060501">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060701">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060401">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tqq"  href="javascript:void(0);" nslog-type="10060601">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div style="width:0;height:0;clear:both"></div><dl class="lemmaWgt-lemmaTitle lemmaWgt-lemmaTitle-">
+<dd class="lemmaWgt-lemmaTitle-title">
+<h1 >github</h1>
+<a href="javascript:;" class="edit-lemma cmn-btn-hover-blue cmn-btn-28 j-edit-link"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+<a class="lock-lemma" nslog-type="10003105" target="_blank" href="/view/10812319.htm" title="锁定"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lock-lemma"></em>锁定</a>
+</dd>
+</dl><div class="promotion-declaration">
+</div><div class="lemma-summary" label-module="lemmaSummary">
+<div class="para" label-module="para">GitHub是一个面向<a target=_blank href="/item/%E5%BC%80%E6%BA%90/20720669" data-lemmaid="20720669">开源</a>及私有<a target=_blank href="/item/%E8%BD%AF%E4%BB%B6/12053" data-lemmaid="12053">软件</a>项目的托管平台，因为只支持git 作为唯一的版本库格式进行托管，故名GitHub。</div><div class="para" label-module="para">GitHub于2008年4月10日正式上线，除了Git代码仓库托管及基本的 Web管理界面以外，还提供了订阅、讨论组、文本渲染、在线文件编辑器、协作图谱（报表）、代码片段分享（Gist）等功能。目前，其注册用户已经超过350万，托管版本数量也是非常之多，其中不乏知名开源项目 <a target=_blank href="/item/Ruby/11419" data-lemmaid="11419">Ruby</a> on Rails、<a target=_blank href="/item/jQuery/5385065" data-lemmaid="5385065">jQuery</a>、<a target=_blank href="/item/python/407313" data-lemmaid="407313">python</a> 等。</div><div class="para" label-module="para">2018年6月4日，微软宣布，通过75亿美元的股票交易收购代码托管平台GitHub。</div><div class="para" label-module="para">2019年05月，《个人电脑杂志》网站报道，GitHub正遭到一名黑客的入侵。据称，这名黑客先擦除代码资源库，然后向用户索要赎金，作为恢复数据的交换。<sup class="sup--normal" data-sup="1" data-ctrmap=":1,">
+[1]</sup><a class="sup-anchor" name="ref_[1]_3366456">&nbsp;</a>
+</div>
+</div>
+<div class="configModuleBanner">
+</div><div class="basic-info cmn-clearfix">
+<dl class="basicInfo-block basicInfo-left">
+<dt class="basicInfo-item name">外文名</dt>
+<dd class="basicInfo-item value">
+GitHub
+</dd>
+<dt class="basicInfo-item name">开发者数量</dt>
+<dd class="basicInfo-item value">
+超过900万 (2015年统计数据)<sup class="sup--normal" data-sup="2" data-ctrmap=":2,">
+[2]</sup><a class="sup-anchor" name="ref_[2]_3366456">&nbsp;</a>
+</dd>
+</dl><dl class="basicInfo-block basicInfo-right">
+<dt class="basicInfo-item name">类&nbsp;&nbsp;&nbsp;&nbsp;别</dt>
+<dd class="basicInfo-item value">
+开源代码库
+</dd>
+<dt class="basicInfo-item name">官&nbsp;&nbsp;&nbsp;&nbsp;网</dt>
+<dd class="basicInfo-item value">
+http://github.com/
+</dd>
+</dl></div>
+<div class="lemmaWgt-lemmaCatalog">
+<div class="lemma-catalog">
+<h2 class="block-title">目录</h2>
+<div class="catalog-list column-3">
+<ol>
+<li class="level1">
+<span class="index">1</span>
+<span class="text"><a href="#1">基本功能</a></span>
+</li>
+<li class="level1">
+<span class="index">2</span>
+<span class="text"><a href="#2">版本历史</a></span>
+</li>
+<li class="level1">
+<span class="index">3</span>
+<span class="text"><a href="#3">内幕信息</a></span>
+</li>
+</ol><ol><li class="level1">
+<span class="index">4</span>
+<span class="text"><a href="#4">Windows应用</a></span>
+</li>
+<li class="level1">
+<span class="index">5</span>
+<span class="text"><a href="#5">配置管理</a></span>
+</li>
+<li class="level1">
+<span class="index">6</span>
+<span class="text"><a href="#6">融资</a></span>
+</li>
+</ol><ol><li class="level1">
+<span class="index">7</span>
+<span class="text"><a href="#7">有关报道</a></span>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="anchor-list">
+<a name="1" class="lemma-anchor para-title" ></a>
+<a name="sub3366456_1" class="lemma-anchor " ></a>
+<a name="基本功能" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">github</span>基本功能</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="1" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para"><div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/github/10145341/0/0dd7912397dda1445da42dedbab7d0a20df486c4?fr=lemma&ct=single" target="_blank"
+		title="" style="width:220px;height:150px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=d034324c01f79052eb1f403c3cf2d738/0dd7912397dda1445da42dedbab7d0a20df486c4.jpg"  alt="" style="width:220px;height:150px;"/>
+</a>
+</div><div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/github/10145341/0/72ccb7773e285f49b051b9aa?fr=lemma&ct=single" target="_blank"
+		title="github" style="width:220px;height:76px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=9807148ed100baa1be2c40b97710b9b1/5bafa40f4bfbfbedac5eef1d78f0f736afc31f48.jpg"  alt="github" style="width:220px;height:76px;"/>
+</a>
+<span class="description">
+github
+</span>
+</div></div>
+<div class="para" label-module="para">作为开源代码库以及版本控制系统，Github拥有超过900万开发者用户。随着越来越多的应用程序转移到了云上，Github已经成为了管理软件开发以及发现已有代码的首选方法。</div>
+<div class="para" label-module="para">如前所述，作为一个分布式的版本控制系统，在Git中并不存在主库这样的概念，每一份<a target=_blank href="/item/%E5%A4%8D%E5%88%B6">复制</a>出的库都可以独立使用，任何两个库之间的不一致之处都可以进行合并。</div>
+<div class="para" label-module="para">GitHub可以托管各种git库，并提供一个web界面，但它与外国的<a target=_blank href="/item/SourceForge/6562141" data-lemmaid="6562141">SourceForge</a>、<a target=_blank href="/item/Google%20Code">Google Code</a>或中国的<a target=_blank href="/item/coding/8921246" data-lemmaid="8921246">coding</a>的服务不同，GitHub的独特卖点在于从另外一个项目进行分支的简易性。为一个项目贡献代码非常简单：首先点击项目站点的“fork”的按钮，然后将代码检出并将修改加入到刚才分出的代码库中，最后通过内建的“pull request”机制向项目负责人申请代码合并。已经有人将GitHub称为代码玩家的MySpace。</div>
+<div class="para" label-module="para">在GitHub进行分支就像在<a target=_blank href="/item/Myspace">Myspace</a>（或<a target=_blank href="/item/Facebook">Facebook</a>…）进行交友一样，在社会关系图的节点中不断的连线。</div>
+<div class="para" label-module="para">GitHub项目本身自然而然的也在GitHub上进行托管，只不过在一个私<div class="lemma-picture text-pic layout-right" style="width:250px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/github/10145341/0/5366d0160924ab181d75807d34fae6cd7b890b1c?fr=lemma&ct=single" target="_blank"
+		title="" style="width:250px;height:100px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D250/sign=3660e54f32fa828bd5239ae6cd1e41cd/5366d0160924ab181d75807d34fae6cd7b890b1c.jpg"  alt="" style="width:250px;height:100px;"/>
+</a>
+</div>有的，公共视图不可见的库中。<a target=_blank href="/item/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE">开源项目</a>可以免费托管，但私有库则并不如此。Chris Wanstrath，GitHub的开发者之一，肯定了通过付费的私有库来在财务上支持免费库的托管这一计划。</div>
+<div class="para" label-module="para">是的，我们正是这么计划的。通过与客户的接洽，开发FamSpam，甚至是开发GitHub本身，GitHub的私有库已经被证明了物有所值。任何希望节省时间并希望和团队其它成员一样远离页面频繁转换之苦的人士都会从GitHub中获得他们真正想要的价值。</div>
+<div class="para" label-module="para">在GitHub，用户可以十分轻易地找到海量的<a target=_blank href="/item/%E5%BC%80%E6%BA%90/20720669" data-lemmaid="20720669">开源</a>代码。</div><div class="anchor-list">
+<a name="2" class="lemma-anchor para-title" ></a>
+<a name="sub3366456_2" class="lemma-anchor " ></a>
+<a name="版本历史" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">github</span>版本历史</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="2" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">2012年12月24日，GitLab 4.0 RC2 发布，<a target=_blank href="/item/%E5%BC%80%E6%BA%90/20720669" data-lemmaid="20720669">开源</a>的 Github<a target=_blank href="/item/%E5%85%8B%E9%9A%86">克隆</a>。</div><div class="anchor-list">
+<a name="3" class="lemma-anchor para-title" ></a>
+<a name="sub3366456_3" class="lemma-anchor " ></a>
+<a name="内幕信息" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">github</span>内幕信息</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="3" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">Chris Wanstrath还向记者分享了关于GitHub的一些内幕信息︰</div>
+<div class="para" label-module="para">GitHub主要用Rails实现。我们在进行的post-commit集成小应用完全使用Merb编写。我们使用了<a target=_blank href="/item/Python/407313" data-lemmaid="407313">Python</a>的Pygments来做格式高亮显示，另外，还用了Ara T. Howard&#39;s Bj加上一些Ruby<a target=_blank href="/item/%E8%84%9A%E6%9C%AC">脚本</a>来做我们的<a target=_blank href="/item/%E6%8E%92%E9%98%9F%E7%B3%BB%E7%BB%9F">排队系统</a>。当然，我们用了Ruby Grit库来和Git进行交互。</div>
+<div class="para" label-module="para">GitHub已经有了一组引人注目的特性，除了命令式的库<a target=_blank href="/item/%E6%B5%8F%E8%A7%88%E5%99%A8">浏览器</a>和一个项目Wiki，GitHub甚至还包括了一个GitHub gem，以使通过shell方式使用GitHub更为方便。更多的未来特性已经在计划中︰</div>
+<div class="para" label-module="para">许多人都希望能有一个条目系统，因此一个简单的条目系统已经在开发中。此外，正如我前面所言，我们尚在进行<a target=_blank href="/item/RubyGems">RubyGems</a>服务器和一些之前留出的post-commit钩子方面的<a target=_blank href="/item/%E5%B7%A5%E4%BD%9C">工作</a>。如果你不能或就是不想托管一个你自己的<a target=_blank href="/item/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B">守护进程</a>，你可以使用我们所提供的。</div>
+<div class="para" label-module="para">我们还在开发一些特性来帮助公司在使用Github时可以停留在sync之上。</div>
+<div class="para" label-module="para">最后，我们也在进行<a target=_blank href="/item/API">API</a>发布方面的<a target=_blank href="/item/%E5%B7%A5%E4%BD%9C">工作</a>。我们很快就会发布一些只读性的API，随后是一些很强大的“写”集成。你可以使用API将新的事件发布到新闻feed中，发消息和做其他许多很酷的事情。</div>
+<div class="para" label-module="para">GitHub尚未设定官方版本的发布日期，不过估计在三月底（GitHub已经上线，但只能通过邀请注册）。更多关于GitHub的信息可以参见GitHub官方网站或GitHub博客。通过GitHub进行代码管理的开源项目列表也已经可以查阅。</div><div class="anchor-list">
+<a name="4" class="lemma-anchor para-title" ></a>
+<a name="sub3366456_4" class="lemma-anchor " ></a>
+<a name="Windows应用" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">github</span>Windows应用</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="4" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">GitHub 使用 git 分布式版本控制系统，而 git 最初是 LinusTorvalds 为帮助<a target=_blank href="/item/Linux">Linux</a>开发而创造的，它针对的是 Linux 平台，因此 git 和 Windows 从来不是最好的朋友，因为它一点也不像 <a target=_blank href="/item/Windows">Windows</a>。GitHub 发布了GitHub for Windows，为 Windows 平台开发者提供了一个易于使用的 Git 图形客户端。<div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/github/10145341/0/21a4462309f790523315f59a07f3d7ca7bcbd508?fr=lemma&ct=single" target="_blank"
+		title="GitHubA主界面" style="width:220px;height:151px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=532e018c3d7adab439d01c41bbd5b36b/21a4462309f790523315f59a07f3d7ca7bcbd508.jpg"  alt="GitHubA主界面" style="width:220px;height:151px;"/>
+</a>
+<span class="description">
+GitHubA主界面
+</span>
+</div></div>
+<div class="para" label-module="para">GitHub for <a target=_blank href="/item/Windows">Windows</a> 是一个 Metro 风格<a target=_blank href="/item/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F">应用程序</a>，<a target=_blank href="/item/%E9%9B%86%E6%88%90">集成</a>了自包含版本的 Git，bash 命令行 shell，PowerShell 的 posh-git 扩展。GitHub 为 Windows 用户提供了一个基本的图形前端去处理大部分常用版本控制任务，可以创建版本库，向本地版本库递交补丁，在<a target=_blank href="/item/%E6%9C%AC%E5%9C%B0">本地</a>和<a target=_blank href="/item/%E8%BF%9C%E7%A8%8B">远程</a>版本库之间同步。<a target=_blank href="/item/%E5%BE%AE%E8%BD%AF">微软</a>也通过<a target=_blank href="/item/CodePlex">CodePlex</a>向开发者提供 git 版本控制系统，而 GitHub 创造了一个更具有吸引力的 Windows 版本。</div><div class="anchor-list">
+<a name="5" class="lemma-anchor para-title" ></a>
+<a name="sub3366456_5" class="lemma-anchor " ></a>
+<a name="配置管理" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">github</span>配置管理</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="5" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">GitHub上已自动配置的<a target=_blank href="/item/Mac/173" data-lemmaid="173">Mac</a><a target=_blank href="/item/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91">笔记本电脑</a>，一个工具，可以转换设置<a target=_blank href="/item/Linux/27050" data-lemmaid="27050">Linux</a>或Windows机器。<br/>　　BOXEN是GitHub的自动化工具，设置和配置的Mac笔记本电脑<a target=_blank href="/item/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91">软件开发</a>或其他类型的工作，正在使用他们的开发人员，律师，设计师，付货人，等。我们的想法是准备系统以自动方式和作为无差错尽可能用最少的干预工作。根据GitHub上，与一个新的开发机器上，他的Mac系统成立，并准备在30分钟内提交代码。<br/>　　BOXEN的基础上收集了大量的几十个木偶模块，使设置的各种软件，如卡桑德拉，MongoDB中，Java软件中，<a target=_blank href="/item/Python/407313" data-lemmaid="407313">Python</a>和<a target=_blank href="/item/Ruby/11419" data-lemmaid="11419">Ruby</a>开发中，节点，JS，nginx的，<a target=_blank href="/item/Skype">Skype</a>公司，甚至<a target=_blank href="/item/MINECRAFT">MINECRAFT</a>。虽然机器上配备了一个预配置，每个用户都可以调整它的配置应有的作用。</div><div class="anchor-list">
+<a name="6" class="lemma-anchor para-title" ></a>
+<a name="sub3366456_6" class="lemma-anchor " ></a>
+<a name="融资" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">github</span>融资</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="6" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">全球最大的社交<a target=_blank href="/item/%E7%BC%96%E7%A8%8B">编程</a>及代码托管网站GitHub以其开创性的新型软件开发方式并且能高效利用有限的资源通过自力更生实现公司盈利和300%的年收入增长成功的吸引知名风投机构Andreessen Horowitz一亿美金的投资。新的资金注入将帮助GitHub平台得到进一步的改进和扩展。</div>
+<div class="para" label-module="para">事实上，这不仅对首次接受外部投资的GitHub意义重大，同样对于投资方Andreessen Horowitz而言，这也是其迄今为止进行过的最大一次单笔投资案。作为投资案的一部分，Andreessen Horowitz的<a target=_blank href="/item/%E5%90%88%E4%BC%99%E4%BA%BA">合伙人</a>Peter Levine将入主GitHub董事会。</div>
+<div class="para" label-module="para">根据GitHub官方解释，这笔资金除了用于扩充员工队伍，改进现有服务并移植到<a target=_blank href="/item/%E7%A7%BB">移</a><div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/github/10145341/0/0db2c9ca3ae9e614f21fe7d2?fr=lemma&ct=single" target="_blank"
+		title="Github吉祥物Octocat" style="width:220px;height:220px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=f23b0796b74543a9f11bfdce2e178a7b/8b13632762d0f703d0ad4cbe08fa513d2697c5b1.jpg"  alt="Github吉祥物Octocat" style="width:220px;height:220px;"/>
+</a>
+<span class="description">
+Github吉祥物Octocat
+</span>
+</div>动平台之外，还将服务对象从原来的编程爱好者和专业软件开发人员拓展至企业、<a target=_blank href="/item/%E8%AE%BE%E8%AE%A1%E5%B8%88">设计师</a>、文字<a target=_blank href="/item/%E5%B7%A5%E4%BD%9C">工作</a>者等更广泛的客户群体。</div>
+<div class="para" label-module="para">GitHub有170万名软件开发人员的忠实用户，他们平均每天更新8万个并新建7千个<a target=_blank href="/item/%E8%BD%AF%E4%BB%B6%E5%BA%93">软件库</a>。对GitHub网站上托管的总计超过300万个软件库，其联合创始人Chris Wanstrath曾经形象地称其为“<a target=_blank href="/item/%E7%A8%8B%E5%BA%8F%E5%91%98">程序员</a>的<a target=_blank href="/item/%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91">维基百科</a>全书”。</div><div class="anchor-list">
+<a name="7" class="lemma-anchor para-title" ></a>
+<a name="sub3366456_7" class="lemma-anchor " ></a>
+<a name="有关报道" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">github</span>有关报道</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="7" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">2013年1月15日晚间，全球最大的社交编程及代码托管网站GitHub突然疑似遭遇<a target=_blank href="/item/DDOS%E6%94%BB%E5%87%BB">DDOS攻击</a>，访问大幅放缓，该网站管理员经过日志查询，发现是来自12306的抢票插件用户洪水般的访问导致GitHub出现问题。</div>
+<div class="para" label-module="para">2013年1月20日左右，GitHub在<a target=_blank href="/item/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86">中国大陆</a>被官方的防火长城封锁（封锁手段为域名污染和关键词过滤），李开复等一些微博大号呼吁解禁GitHub，微博转发近10万条。2013年1月23日github网站恢复正常访问。</div>
+<div class="para" label-module="para">2014年1月23日联合创始人汤姆·普雷斯顿-维尔纳（Tom Preston-Werner）从另一位联合创始人克里斯·万斯特拉斯（Chris Wanstrath）手中接过总裁职位，后者也将接过普雷斯顿-维尔纳留下的CEO位置。</div>
+<div class="para" label-module="para">2018年6月4日晚，微软宣布，通过75亿美元的股票交易收购代码托管平台GitHub。<sup class="sup--normal" data-sup="3" data-ctrmap=":3,">
+[3]</sup><a class="sup-anchor" name="ref_[3]_3366456">&nbsp;</a>
+</div>
+<div class="para" label-module="para">2018年10月26日，微软以75亿美元收购GitHub交易已完成。同年10月29日微软开发者服务副总裁奈特·弗里德曼(Nat Friedman)将成为GitHub的新一任CEO。<sup class="sup--normal" data-sup="4" data-ctrmap=":4,">
+[4]</sup><a class="sup-anchor" name="ref_[4]_3366456">&nbsp;</a>
+</div>
+<div class="anchor-list">
+<a name="a" class="lemma-anchor a" ></a>
+</div><div class="album-list">
+<div class="header">
+<span class="title">词条图册</span>
+<a class="more-link" href="/pic/github/10145341?fr=lemma" target="_blank" nslog-type="10000204">更多图册<em></em></a>
+</div>
+<div class="scroller">
+<div class="list">
+</div>
+</div>
+<div class="footer">
+</div>
+</div>
+<div class="tashuo-bottom" id="tashuo_bottom">
+<div class="tashuo-bottom-title-essence">
+<img src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/tashuo/img/ta-logo-blue_5458427.png" alt="">
+<span>解读词条背后的知识</span>
+</div>
+<div class="tashuo-multiple">
+<div class="tashuo-wrapper">
+<div class="tashuo-view">
+<ul class="tashuo-slider maqueeCanvas" style="width:1968px">
+<li class="slider-item">
+<ul class="tashuo-list">
+<li class="tashuo-item J-item" data-tashuoId="a800080138025fd97170f3e9">
+<div class="tashuo-author">
+<a href="/usercenter/userpage?uk=38c01840&authorId=73c81632c54af83d9026dd26&from=lemma" target="_blank">
+<div class="ta-author-area"><span><img src="https://imgsa.baidu.com/baike/pic/item/29381f30e924b899b23db9e162061d950b7bf6e2.jpg" /></span></div>
+<div class="ta-author-slogan-area">
+<strong>钛媒体</strong>
+<span>网罗天下创新事</span>
+</div>
+<i></i></a>
+</div>
+<a href="/tashuo/browse/content?id=a800080138025fd97170f3e9&lemmaId=10145341&fromLemmaModule=pcBottom" class="cover" target="_blank">
+<img src="https://imgsa.baidu.com/baike/pic/item/faf2b2119313b07e786fcd8800d7912396dd8c64.jpg" data-width="" data-height="" class="cover-img">
+<div class="overlay"><img src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/tashuo/img/overlay_543bb29.png"></div>
+<p class="title">
+75亿美金收购案，背后是微软和开源的十年恩怨
+</p></a>
+<p class="abstract">
+<a href="/tashuo/browse/content?id=a800080138025fd97170f3e9&lemmaId=10145341&fromLemmaModule=pcBottom" target="_blank">
+这件事的意义不在于 75 亿高额收购交易，而在于——十多年前，微软和开源社区还势同水火；今天的微软已然成为对开源服务支持拥抱力度最大的商业公司之一。75亿美元收购案，再次标志了微软这家老牌公司的“大转折”。今天的微软，已成为对开源服务支持拥抱力度最大的商业公司之一——但你可...</a>
+</p>
+<div class="tashuo-operator">
+<span class="tashuo-publish-date">2018-06-11</span><span class="tashuo-like J-like " data-isvote="0"><i></i><strong class="J-number">245</strong></span>
+</div>
+</li>
+<li class="tashuo-item J-item" data-tashuoId="f0f8db414dfa8cfe25d3d512">
+<div class="tashuo-author">
+<a href="/usercenter/userpage?uk=328d7ea3&authorId=02c9b57396d29adc821a9925&from=lemma" target="_blank">
+<div class="ta-author-area"><span><img src="https://imgsa.baidu.com/baike/pic/item/72f082025aafa40f4c1a2504a764034f79f0190e.jpg" /></span></div>
+<div class="ta-author-slogan-area">
+<strong>虎嗅网</strong>
+<span>虎嗅网官方账号</span>
+</div>
+<i></i></a>
+</div>
+<a href="/tashuo/browse/content?id=f0f8db414dfa8cfe25d3d512&lemmaId=10145341&fromLemmaModule=pcBottom" class="cover" target="_blank">
+<img src="https://imgsa.baidu.com/baike/pic/item/5ab5c9ea15ce36d3ce65864f34f33a87e950b16f.jpg" data-width="" data-height="" class="cover-img">
+<div class="overlay"><img src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/tashuo/img/overlay_543bb29.png"></div>
+<p class="title">
+现在，你可以在GitHub上“读”北大了
+</p></a>
+<p class="abstract">
+<a href="/tashuo/browse/content?id=f0f8db414dfa8cfe25d3d512&lemmaId=10145341&fromLemmaModule=pcBottom" target="_blank">
+在GitHub上“读”北大，这是什么骚操作？一位用户（librarian-pku）创建了名为libpku的项目，专门用来分享北京大学的课程资料。这个项目，今天登上了趋势榜，现在已经有3000+标星，1000+Fork。项目涵盖13...</a>
+</p>
+<div class="tashuo-operator">
+<span class="tashuo-publish-date">2019-04-09</span><span class="tashuo-like J-like " data-isvote="0"><i></i><strong class="J-number">184</strong></span>
+</div>
+</li>
+<li class="tashuo-item J-item" data-tashuoId="a642e1fb58594b392c6f813c">
+<div class="tashuo-author">
+<a href="/usercenter/userpage?uk=cf715fa2&authorId=eca9aca482087f4ed5278825&from=lemma" target="_blank">
+<div class="ta-author-area"><span><img src="https://imgsa.baidu.com/baike/pic/item/29381f30e924b8999bc592e162061d950b7bf66a.jpg" /></span></div>
+<div class="ta-author-slogan-area">
+<strong>爱范儿</strong>
+<span>聚焦新创和消费主题的科技媒体</span>
+</div>
+<i></i></a>
+</div>
+<a href="/tashuo/browse/content?id=a642e1fb58594b392c6f813c&lemmaId=10145341&fromLemmaModule=pcBottom" class="cover" target="_blank">
+<img src="https://imgsa.baidu.com/baike/pic/item/f703738da9773912fbc208b3f0198618377ae278.jpg" data-width="" data-height="" class="cover-img">
+<div class="overlay"><img src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/tashuo/img/overlay_543bb29.png"></div>
+<p class="title">
+曾经那么不喜欢开源的微软，如今在 GitHub 上成为开源头牌
+</p></a>
+<p class="abstract">
+<a href="/tashuo/browse/content?id=a642e1fb58594b392c6f813c&lemmaId=10145341&fromLemmaModule=pcBottom" target="_blank">
+在去年爱范儿的 ifanRank 年度榜单评选中，我们将微软列为 2015 年度科技公司。其中一个重要的原因是，微软对开源做出了重要的贡献。要知道，纳德拉上任 CEO 之前的微软对开源可没有这么上心，甚至在更早的时候，时任微软 CEO 的鲍尔默还曾说过 “开源软件是知识产权...</a>
+</p>
+<div class="tashuo-operator">
+<span class="tashuo-publish-date">2016-10-23</span><span class="tashuo-like J-like " data-isvote="0"><i></i><strong class="J-number">163</strong></span>
+</div>
+</li>
+<li class="tashuo-item J-item" data-tashuoId="375a76c42fae75b9f1b9d1ed">
+<div class="tashuo-author">
+<a href="/usercenter/userpage?uk=49959951&authorId=300006d971d7466e083d5321&from=lemma" target="_blank">
+<div class="ta-author-area"><span><img src="https://imgsa.baidu.com/baike/pic/item/b3b7d0a20cf431ad6316b6f74136acaf2fdd983c.jpg" /></span></div>
+<div class="ta-author-slogan-area">
+<strong>差评</strong>
+<span>有干货，有态度，有内幕的科技自媒体</span>
+</div>
+<i></i></a>
+</div>
+<a href="/tashuo/browse/content?id=375a76c42fae75b9f1b9d1ed&lemmaId=10145341&fromLemmaModule=pcBottom" class="cover" target="_blank">
+<img src="https://imgsa.baidu.com/baike/pic/item/024f78f0f736afc3468fa7f8bf19ebc4b64512af.jpg" data-width="" data-height="" class="cover-img">
+<div class="overlay"><img src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/tashuo/img/overlay_543bb29.png"></div>
+<p class="title">
+全球最大的同性交友网站被收购了？!
+</p></a>
+<p class="abstract">
+<a href="/tashuo/browse/content?id=375a76c42fae75b9f1b9d1ed&lemmaId=10145341&fromLemmaModule=pcBottom" target="_blank">
+衣不如新人不如故瞧一瞧，看一看，最大的同性交友网站Gayhub 被 巨硬 收购了！！不好意思，写错了，是 Github 被 微软 收购了。。。...</a>
+</p>
+<div class="tashuo-operator">
+<span class="tashuo-publish-date">2018-06-06</span><span class="tashuo-like J-like " data-isvote="0"><i></i><strong class="J-number">154</strong></span>
+</div>
+</li>
+</ul>
+</li>
+<li class="slider-item">
+<ul class="tashuo-list">
+<li class="tashuo-item J-item" data-tashuoId="38aea596ccbf777dce094caf">
+<div class="tashuo-author">
+<a href="/usercenter/userpage?uk=40ad3c01&authorId=9ecbf4e3f0e1d4d59fc0e120&from=lemma" target="_blank">
+<div class="ta-author-area"><span><img src="https://imgsa.baidu.com/baike/pic/item/3b87e950352ac65c3a467f1cf1f2b21193138a19.jpg" /></span></div>
+<div class="ta-author-slogan-area">
+<strong>王吉伟</strong>
+<span>资深科技自媒体人</span>
+</div>
+<i></i></a>
+</div>
+<a href="/tashuo/browse/content?id=38aea596ccbf777dce094caf&lemmaId=10145341&fromLemmaModule=pcBottom" class="cover" target="_blank">
+<img src="https://imgsa.baidu.com/baike/pic/item/79f0f736afc379318611ecf9e5c4b74542a911e0.jpg" data-width="" data-height="" class="cover-img">
+<div class="overlay"><img src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/tashuo/img/overlay_543bb29.png"></div>
+<p class="title">
+取消软件福利遭1500家合作伙伴反对，微软或为寻求更稳定伙伴关系
+</p></a>
+<p class="abstract">
+<a href="/tashuo/browse/content?id=38aea596ccbf777dce094caf&lemmaId=10145341&fromLemmaModule=pcBottom" target="_blank">
+微软取消软件福利并非因为运营成本问题。尤其是此项决定，还会影响伙伴公司第一手应用微软新技术的能力，进而削弱微软产品的测试流程。微软不惜代价推进MAPS服务，正是想寻求一种更为牢稳的合作伙伴关系。</a>
+</p>
+<div class="tashuo-operator">
+<span class="tashuo-publish-date">2019-07-25</span><span class="tashuo-like J-like " data-isvote="0"><i></i><strong class="J-number">59</strong></span>
+</div>
+</li>
+</ul>
+</li>
+</ul></div>
+<div class="tashuo-bottom-pager"></div>
+</div>
+</div>
+</div>
+<dl class="lemma-reference collapse nslog-area log-set-param" data-nslog-type="2" log-set-param="ext_reference">
+<dt class="reference-title">参考资料</dt>
+<dd class="reference-list-wrap">
+<ul class="reference-list">
+<li class="reference-item reference-item--type1 " id="reference-[1]-3366456-wrap">
+<span class="index">1.</span>
+<a class="gotop anchor"  name="refIndex_1_3366456" id="refIndex_1_3366456" title="向上跳转" href="#ref_[1]_3366456">&nbsp;&nbsp;</a>
+<a rel="nofollow" href="/reference/10145341/97c1Yw9R8NSdlpZr3rBpuO4xvKmQdas-gf6BkKyH4H2tBhPY_IzxuLQ-KtPMz_Amfh0tqMjx7langrKMZ8Rx_JvbwZrqku1lludmYQ-LULcQ2F3NYUQDbV0yekzNzroAWxWfctrf6yJapCoEqw" target="_blank" class="text">GitHub等代码库遭黑客入侵 仅索要566美元<span class="linkout">&nbsp;</span></a>
+<span class="site">．新浪</span><span>&#91;引用日期2019-05-05&#93;</span></li><li class="reference-item reference-item--type1 " id="reference-[2]-3366456-wrap">
+<span class="index">2.</span>
+<a class="gotop anchor"  name="refIndex_2_3366456" id="refIndex_2_3366456" title="向上跳转" href="#ref_[2]_3366456">&nbsp;&nbsp;</a>
+<a rel="nofollow" href="/reference/10145341/c30dxQ_8BKebP3okrRu4Uw9pvN8tQ4V2btAKC5SVzgGmi5-MMhPF-7BVkOxXWz-4PM67HB6cegZKrhY" target="_blank" class="text">GitHub Press Info<span class="linkout">&nbsp;</span></a>
+<span class="site">．github.com. Github</span><span>&#91;引用日期2016-12-04&#93;</span></li><li class="reference-item reference-item--type1 " id="reference-[3]-3366456-wrap">
+<span class="index">3.</span>
+<a class="gotop anchor"  name="refIndex_3_3366456" id="refIndex_3_3366456" title="向上跳转" href="#ref_[3]_3366456">&nbsp;&nbsp;</a>
+<a rel="nofollow" href="/reference/10145341/efcaAYqiNlIwhHB4d3vxjZWD80OOQjsOgdH90_gkznTLAH7lmry_BJhwlsa6jbJSmoEk2vViHXwI2-z8L7JUzw-fHj_XKg" target="_blank" class="text">官宣！微软宣布75亿美元收购GitHub<span class="linkout">&nbsp;</span></a>
+<span class="site">．IT之家</span><span>&#91;引用日期2018-06-04&#93;</span></li><li class="reference-item reference-item--type1 " id="reference-[4]-3366456-wrap">
+<span class="index">4.</span>
+<a class="gotop anchor"  name="refIndex_4_3366456" id="refIndex_4_3366456" title="向上跳转" href="#ref_[4]_3366456">&nbsp;&nbsp;</a>
+<a rel="nofollow" href="/reference/10145341/f79c8A0w7bEAZDxQcOqt96G76GjYBR-5c2X2sryZlWbZvYQgR086mHXmSlhjdPQK6qKyoM3GtXb96G9ismUyM0qaaxgi" target="_blank" class="text">微软宣布完成75亿美元收购开源代码库GitHub交易<span class="linkout">&nbsp;</span></a>
+<span class="site">．腾讯科技</span><span>．2018-10-27</span><span>&#91;引用日期2018-10-27&#93;</span></li></ul>
+</dd>
+</dl>
+<div id="open-tag">
+<div class="open-tag-title">词条标签：</div>
+<dd id="open-tag-item">
+<span class="taglist">
+软件
+</span>
+，<span class="taglist">
+社会
+</span>
+</dd>
+<div class="open-tag-collapse" id="open-tag-collapse"></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="side-content">
+<div class="summary-pic">
+<a href="/pic/github/10145341/0/d4628535e5dde7119c3d076aabefce1b9c1661ba?fr=lemma&amp;ct=single" target="_blank" nslog-type="10002401">
+<img src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=4f7bf38ac3fc1e17fdbf8b3772ab913e/d4628535e5dde7119c3d076aabefce1b9c1661ba.jpg" />
+<button class="picAlbumBtn"><em></em><span>图集</span></button>
+<div>github图册</div>
+</a>
+</div>
+<div class="tashuo-right" id="tashuo_right">
+<div class="tashuo-right-content-essence">
+<div class="J-items">
+</div>
+</div>
+</div>
+<div class="lemmaWgt-promotion-vbaike">
+<div class="promotion_title">V百科<a href="/vbaike#gallary" target="_blank">往期回顾</a></div>
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightPreciseAd" data-lemmaId="10145341" data-lemmaTitle="github"></div><div class="lemmaWgt-sideRecommend">
+<a name="zhixinWrap" class="qnAnchor"></a>
+<div class="zhixin-box" id="zhixinWrap" data-source="" data-newLemmaId="10145341">
+</div>
+<form id="zhixinErrorForm" class="hidden" action="https://sp2.baidu.com/-uV1bjeh1BF3odCf/index.php/feedback/zx/baikeJC" target="zhixinSubErr" method="post">
+<input class="js-url" name="fb_html_url" type="hidden" />
+<input class="js-query" name="fb_query" type="hidden" />
+<input class="js-title" name="fb_card_title" type="hidden" />
+<input class="js-content" name="fb_content" type="hidden" />
+<input class="js-souceId" name="fb_source_id" type="hidden" />
+</form>
+<iframe id="zhixinSubErr" name="zhixinSubErr" style="display:none" frameborder="0"></iframe>
+</div>
+<div class="lemmaWgt-promotion-slide">
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightBigAd">
+</div><dl class="side-box lemma-statistics">
+<dt class="title">词条统计</dt>
+<dd class="description split-line">
+<ul>
+<li>浏览次数：<span id="j-lemmaStatistics-pv"></span>次</li>
+<li>编辑次数：95次<a href="/historylist/github/10145341" class="nslog:1021" target="_blank">历史版本</a></li>
+<li>
+<span class="latest-title">最近更新：</span>
+<span class="latest-content">
+<a class="show-userCard" data-uid="3500128047" title="查看此用户资料" target="_blank" href="/usercenter/userpage?uname=mo%E8%AE%B8%E4%B8%80%E7%94%9F&from=lemma"
+                    nslog-type="1022">mo许一生</a><a href="https://baike.baidu.com/kedou" 
+                                title="百科蝌蚪团" target="_blank" class="contribute-flag-container">
+<img src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaStatistics/img/contribute-flag-1_c1b820f.png" alt="" class="contribute-flag-icon">
+</a>
+<span class="j-modified-time" style="display:none">（2019-11-03）</span>
+</span>
+</li>
+</ul>
+</dd>
+<dt class="title">突出贡献榜</dt>
+<dd class="description excellent-description">
+<ul>
+<li>
+<a title="查看此用户资料" class="usercard show-userCard" data-uid="120194118" username="申义亚" target="_blank" href="/usercenter/userpage?uname=%E7%94%B3%E4%B9%89%E4%BA%9A&from=lemma">申义亚</a>
+<a href="https://baike.baidu.com/item/百科热词团队" 
+                        title="百科热词团" target="_blank" class="contribute-flag-container">
+<img src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaStatistics/img/contribute-flag-2_eb180f9.png" alt="" class="contribute-flag-icon">
+</a>
+<div class="right">
+<a target="_blank" href="https://baike.baidu.com/item/百度百科：热词版本"><img align="absmiddle" alt="热词版本" title="热词版本" src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaStatistics/img/hotspot_4fe3af1.png"></a>
+</div>
+</li>
+<li>
+<a title="查看此用户资料" class="usercard show-userCard" data-uid="150063400" username="07806919d" target="_blank" href="/usercenter/userpage?uname=07806919d&from=lemma">07806919d</a>
+<div class="right">
+<a target="_blank" href="https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91%EF%BC%9A%E5%88%9B%E5%BB%BA%E7%89%88%E6%9C%AC"><img align="absmiddle" alt="创建版本" title="创建版本" src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaStatistics/img/create_c3f33b6.png"></a>
+</div>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="side-catalog" style="visibility:hidden">
+<div class="side-bar">
+<em class="circle start"></em>
+<em class="circle end"></em>
+</div>
+<div class="catalog-scroller">
+<dl class="catalog-list">
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#1" class="title-link">
+<span class="text">
+<span class="title-index">1</span>
+<span class="title-link" nslog-type="10002802">基本功能</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#2" class="title-link">
+<span class="text">
+<span class="title-index">2</span>
+<span class="title-link" nslog-type="10002802">版本历史</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#3" class="title-link">
+<span class="text">
+<span class="title-index">3</span>
+<span class="title-link" nslog-type="10002802">内幕信息</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#4" class="title-link">
+<span class="text">
+<span class="title-index">4</span>
+<span class="title-link" nslog-type="10002802">Windows应用</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#5" class="title-link">
+<span class="text">
+<span class="title-index">5</span>
+<span class="title-link" nslog-type="10002802">配置管理</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#6" class="title-link">
+<span class="text">
+<span class="title-index">6</span>
+<span class="title-link" nslog-type="10002802">融资</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#7" class="title-link">
+<span class="text">
+<span class="title-index">7</span>
+<span class="title-link" nslog-type="10002802">有关报道</span>
+</span>
+</a>
+</dt>
+<a class="arrow" href="javascript:void(0);"></a>
+</dl>
+</div>
+<div class="right-wrap">
+<a class="go-up disable" href="javascript:void(0);"></a>
+<a class="go-down" href="javascript:void(0);"></a>
+</div>
+</div>
+<div id="side_box_fengchao" class="fengchao side-box" nslog="area" nslog-type="10000902">
+</div>
+<div id="side_box_unionAd" class="unionAd side-box">
+<div class="union-content"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="after-content">
+<div class="fc-guess-like new" id="fc_guess_like_new">
+<span class="logo-du">
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+</span>
+<h6>搜索发现</h6>
+<ul class="cmn-clearfix">
+</ul>
+</div>
+</div>
+</div>
+
+<div class="wgt-footer-main">
+<div class="content">
+<dl class="fresh">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-fresh"></em>新手上路</dt>
+<dd>
+<div><a target="_blank" href="/usercenter/tasks#guide">成长任务</a></div>
+<div><a target="_blank" href="/help#main01">编辑入门</a></div>
+<div><a target="_blank" href="/help#main06">编辑规则</a></div>
+<div><a target="_blank" href="/item/%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91%EF%BC%9A%E6%9C%AC%E4%BA%BA%E8%AF%8D%E6%9D%A1%E7%BC%96%E8%BE%91%E6%9C%8D%E5%8A%A1/22442459?bk_fr=pcFooter">本人编辑</a><img src="https://bkssl.bdimg.com/static/wiki-common/widget/component/footer/img/new-icon_a64774d.png" class="new-icon" alt="new"></div>
+</dd>
+</dl>
+<dl class="question">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-question"></em>我有疑问</dt>
+<dd>
+<div><a id="J-bk-feedback-query" data-lemma="github" href="javascript:void(0);" nslog-type="10070001">内容质疑</a></div>
+<div><a target="_blank" href="http://zhiqiu.baidu.com/baike/passport/html/baikechat.html" nslog-type="10000003">在线客服</a></div>
+<div><a target="_blank" href="http://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91">官方贴吧</a></div>
+<div><a id="J-bk-feedback-main" href="javascript:void(0);">意见反馈</a></div>
+</dd>
+</dl>
+<dl class="suggestion">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-suggestion"></em>投诉建议</dt>
+<dd>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=1">举报不良信息</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=2">未通过词条申诉</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=6">投诉侵权信息</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=5">封禁查询与解封</a></div>
+</dd>
+</dl>
+</div>
+<div class="copyright">©2019&nbsp;Baidu&nbsp;<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;|&nbsp;<a href="http://help.baidu.com/question?prod_en=baike&class=89&id=1637" target="_blank">百科协议</a>&nbsp;|&nbsp;<a href="http://help.baidu.com/question?prod_id=10&class=690&id=1001779" target="_blank">隐私政策</a>&nbsp;|&nbsp;<a href="/operation/cooperation" target="_blank">百度百科合作平台</a>&nbsp;|&nbsp;<span>京ICP证030173号&nbsp;</span><img class="copyright-img" width="13" height="16" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/copy_rignt_24.png"></div>
+<p class="recordcode"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target="_blank"><i class="icon-police"></i>京公网安备11000002000001号</a></p>
+</div>
+
+
+<div class="lemmaWgt-searchHeader">
+<div class="layout cmn-clearfix">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-simple cmn-clearfix ">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080015" name="word" type="text" autocomplete="off" autocorrect="off" value="github" /><button id="search" nslog="normal" nslog-type="10080013" type="button">进入词条</button>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="clear" style="margin-right:8px;">清除历史记录</span><span id="close" nslog="normal" nslog-type="10080016">关闭</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tool-buttons">
+<a class="toolButtons-edit button j-edit-link" href="javascript:;" nslog-type="10010001"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-hollow"></em>编辑</a>
+<a class="toolButtons-collect button" href="javascript:;" nslog-type="10010002"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>收藏</a>
+<a class="toolButtons-vote button top-vote" href="javascript:;" nslog-type="10010003"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em><span class="j-tool-btn-vote-num">赞</span></a>
+</div>
+<div class="user-info">
+<a class="user-link unlogin" href="javascript:;" nslog-type="10010008" target="_blank">登录</a>
+</div>
+</div></div>
+<div class="new-bdsharebuttonbox new-side-share" id="side-share">
+<span class="title">分享</span>
+<div class="side-border">
+<div class="triangle"></div>
+<a class="share-link bds_qzone"  href="javascript:void(0);" nslog-type="10060101">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060301">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060001">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+<a class="share-link bds_tqq"  href="javascript:void(0);" nslog-type="10060201">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</div>
+</div>
+<div class="qrcode-wrapper" id="layer" style="display: none">
+<div class="bd_weixin_popup_header">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+<span>分享到微信朋友圈</span>
+</div>
+<div id="wechat-qrcode-img"></div>
+<div class="bd_weixin_popup_footer">打开微信“扫一扫”即可将网页分享至朋友圈</div>
+</div>
+<div></div><div></div>
+
+
+
+</body>
+
+
+
+
+
+
+</html>
