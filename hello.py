@@ -21,7 +21,8 @@ if __name__ == '__main__':
     # app.debug = True
     # app.run(host='127.0.0.1', port=5011, debug=True)
 
-    entry_url = 'https://baike.baidu.com/item/github/10145341?fr=aladdin'
+    # entry_url = 'https://baike.baidu.com/item/github/10145341?fr=aladdin'
+    entry_url = 'https://bbs.hupu.com/30452896.html'
 
     # print('开始爬取数据：')
     # print('entry url: {}'.format(entry_url))
