@@ -10,6 +10,8 @@ def get_export_path():
     dir_path = os.path.dirname(os.path.abspath(__file__))
     super_dir_path = os.path.dirname(dir_path)
     export_dir_path = '{}\\{}'.format(super_dir_path, EXPORT_DIR)
+    if not os.path.exists(export_dir_path):
+        os.makedirs(export_dir_path)
     return export_dir_path
     # 获取项目执行的根目录
     # print(os.getcwd())

@@ -31,6 +31,13 @@ class UrlManager(object):
         self.old_queue.add(new_url)
         return new_url
 
+    def get_size(self):
+        return self.new_queue.getsize()
+
+    def clear(self):
+        self.new_queue.empty()
+        self.old_queue = set()
+
 # 使用set实现类广度优先爬虫url调度器
 # class UrlManager(object):
 #     def __init__(self):

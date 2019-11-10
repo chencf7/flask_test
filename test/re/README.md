@@ -13,11 +13,11 @@
 > 比如：`\d{3,6}?`，匹配数字，只会匹配3位
 
 ```python
-str='12333494939393990202'
+str1='12333494939393990202'
 # 使用 \d{3,6}，结果3处匹配：123334，949393，939902
 # 使用 \d{3,6}?，结果6处匹配：123，334，949，393，939，902
 
-str='''<meta charset="UTF-8">
+str2='''<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 <title>github_百度百科</title>
 <div><p></p></div><p>'''

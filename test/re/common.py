@@ -16,8 +16,8 @@ class ReUtil(object):
     # 删除不必要的下载网页的元素
     # 删除脚本内容 <script> <style>
     def exact_script_style(data):
-        no_script_text = re.sub(ReUtil.regex_script, r'', data)
-        no_style_text = re.sub(ReUtil.regex_style, r'', no_script_text)
+        no_script_text = re.sub(ReUtil.regex_script, r'\n', data)
+        no_style_text = re.sub(ReUtil.regex_style, r'\n', no_script_text)
         return no_style_text
 
     @staticmethod
