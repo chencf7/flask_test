@@ -23,25 +23,37 @@ reg_desp_kw = r'<meta name="(?:description|keywords).*?>'
 
 reg_baike_item = r'<a.*?href="/item/.*?</a>'
 
+# 匹配2个以上换行符
+reg_linefeed = r'(\r\n){2,}|\n{2,}'
+
 
 def re_test():
-    result = read_txt('tmp')
-    # print(result)
+    try:
+        # result = read_txt('\\2019_11_08\\export230407_862743 - 副本.txt')
+        result = read_txt('\\2019_11_10\\export080619_807232.txt')
+        print(result)
+        print('=====================================================')
+        # no_lf_file = re.sub(reg_linefeed, r'\n', result)
+        # print(no_lf_file)
+        print(ReUtil.exact_linefeed(result))
 
-    # exact_str = re.sub(regex_script, r'', result)
-    # write_str2txt(exact_str, None)
-    # 获取网页标题
-    str_title = re.search(reg_title, result)
-    print(ReUtil.clear_tag(str_title.group(0)))
+        return
+        # exact_str = re.sub(regex_script, r'', result)
+        # write_str2txt(exact_str, None)
+        # 获取网页标题
+        str_title = re.search(reg_title, result)
+        print(ReUtil.clear_tag(str_title.group(0)))
 
-    str_desp_kw = re.findall(reg_desp_kw, result)
-    for dk in str_desp_kw:
-        print(dk)
+        str_desp_kw = re.findall(reg_desp_kw, result)
+        for dk in str_desp_kw:
+            print(dk)
 
-    new_urls = re.findall(reg_baike_item, result)
-    for url in new_urls:
-        print(url)
-    pass
+        new_urls = re.findall(reg_baike_item, result)
+        for url in new_urls:
+            print(url)
+        pass
+    except Exception as err:
+        print(err)
 
 
 if __name__ == '__main__':

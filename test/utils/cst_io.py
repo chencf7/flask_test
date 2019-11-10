@@ -42,7 +42,8 @@ def write_str2txt(str_result, file_name, fp=None, file_encoding='utf-8'):
 
 def read_txt(filename, fp=None, file_encoding='utf-8'):
     export_path = get_export_path()
-    fn = '\\2019_11_08\\export124050_513892.txt'
-    with open(export_path+fn, 'r', encoding=file_encoding) as f:
-        return f.read()
-
+    try:
+        with open(export_path+filename, 'r', encoding=file_encoding) as f:
+            return f.read()
+    except IOError as err:
+        raise err

@@ -1,10 +1,19 @@
 # coding=utf-8
 import requests
-import re
 
-# 匹配脚本文件正则
-regex_script = r'<script(?:>| type| src| async)[\s\S]*?</script>'
-regex_style = r'<style(?:>| type)[\s\S]*?</style>'
+from test.re.common import ReUtil
+
+
+# def exact_file():
+#     yield ReUtil.exact_script_style()
+#     yield ReUtil.exact_linefeed()
+
+# 函数组合，支持两个函数，组合函数从右向左执行
+def compose_two(f, g):
+    # def fg(x):
+    #     f(g(x))
+    # return fg
+    return lambda x: f(g(x))
 
 
 class HtmlPageLoader(object):
@@ -12,13 +21,6 @@ class HtmlPageLoader(object):
         # 记录爬取的url个数
         self.count = 0
         pass
-
-    # 精简不必要的下载网页的元素
-    # 1. 删除脚本内容 <script>
-    def __exact(self, data):
-        no_script_text = re.sub(regex_script, r'', data)
-        no_style_text = re.sub(regex_style, r'', no_script_text)
-        return no_style_text
 
     def download(self, url):
         if url is None:
@@ -33,7 +35,13 @@ class HtmlPageLoader(object):
         data = sessions.get(url)
         if data.status_code == 200:
             data.encoding = 'utf-8'
-            return self.__exact(data.text)
+            # 删除不必要的下载网页的元素
+            # 组合函数从右向左执行
+            exact_fun = compose_two(ReUtil.exact_linefeed, ReUtil.exact_script_style)
+            return exact_fun(data.text)
+            # return ReUtil.exact_linefeed(ReUtil.exact_script_style(data.text))
+
+        # 判断request下载网页是否成功，否返回None
         return None
 
     def download_page_count(self):
