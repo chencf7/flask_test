@@ -23,8 +23,8 @@ if __name__ == '__main__':
 
     entry_url = 'https://baike.baidu.com/item/github/10145341?fr=aladdin'
     # entry_url = 'https://bbs.hupu.com/30452896.html'
-    print('开始爬取数据')
     print('entry url: {}'.format(entry_url))
+    print('开始爬取数据')
     _st = time.time()
     spe = SpiderEntry()
     spe.dispatch(entry_url)

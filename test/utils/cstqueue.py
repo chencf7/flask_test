@@ -1,8 +1,9 @@
 # coding=utf-8
+import operator
 
 
 class CstQueue(object):
-    def __init__(self, size=100):
+    def __init__(self, size=999):
         self.queue = []
         self.size = size
         self.end = -1
@@ -29,8 +30,18 @@ class CstQueue(object):
         else:
             raise Exception('Queue is empty')
 
+    def get_queue(self):
+        return self.queue
+
     def any(self, element):
-        exits_arr = filter(lambda itm: itm == element, self.queue)
+        def compare_two(t1):
+            # print(t1, element)
+            return t1 == element
+
+        exits_arr = filter(compare_two, self.queue)
+        # exits_arr = filter(lambda itm: itm == element, self.queue)
+        # exits_arr = filter(lambda itm: itm.strip() == element.strip(), self.queue)
+        # exits_arr = filter(lambda itm: operator.eq(itm, element), self.queue)
         return len(list(exits_arr)) > 0
 
     def empty(self):

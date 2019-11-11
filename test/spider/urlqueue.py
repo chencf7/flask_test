@@ -14,8 +14,14 @@ class UrlManager(object):
     def add_one_url(self, url):
         if url is None:
             return
+        print('添加url：', url)
+        if self.new_queue.any(url):
+            print('======存在url======')
         if (not self.new_queue.any(url)) and url not in self.old_queue:
+            print('======添加')
             self.new_queue.in_queue(url)
+        else:
+            print('~~~~~~没有添加')
 
     def add_urls(self, urls):
         if urls is None or len(urls) == 0:
@@ -26,10 +32,14 @@ class UrlManager(object):
     def has_url(self):
         return self.new_queue.getsize() != 0
 
+    # 获取队列最先入队的内容
     def get_url(self):
         new_url = self.new_queue.out_queue()
         self.old_queue.add(new_url)
         return new_url
+
+    def get_url_queue(self):
+        return self.new_queue.get_queue()
 
     def get_size(self):
         return self.new_queue.getsize()

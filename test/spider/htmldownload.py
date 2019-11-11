@@ -30,19 +30,21 @@ class HtmlPageLoader(object):
                      'Chrome/77.0.3865.90 Safari/537.36 '
         headers = {'User_Agent': user_agent}
 
-        sessions = requests.session()
-        sessions.headers = headers
-        data = sessions.get(url)
-        if data.status_code == 200:
-            data.encoding = 'utf-8'
-            # 删除不必要的下载网页的元素
-            # 组合函数从右向左执行
-            exact_fun = compose_two(ReUtil.exact_linefeed, ReUtil.exact_script_style)
-            return exact_fun(data.text)
-            # return ReUtil.exact_linefeed(ReUtil.exact_script_style(data.text))
-
-        # 判断request下载网页是否成功，否返回None
-        return None
+        try:
+            sessions = requests.session()
+            sessions.headers = headers
+            data = sessions.get(url)
+            if data.status_code == 200:
+                data.encoding = 'utf-8'
+                # 删除不必要的下载网页的元素
+                # 组合函数从右向左执行
+                exact_fun = compose_two(ReUtil.exact_linefeed, ReUtil.exact_script_style)
+                return exact_fun(data.text)
+                # return ReUtil.exact_linefeed(ReUtil.exact_script_style(data.text))
+            # 判断request下载网页是否成功，否返回None
+            return None
+        except Exception as err:
+            return None
 
     def download_page_count(self):
         return self.count
