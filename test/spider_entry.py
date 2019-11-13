@@ -4,9 +4,9 @@
 
 # import time
 from urllib import parse
-from .spider import urlqueue, htmldownload
+from .spider import urlqueue, htmldownload, htmlparse
 from .utils.cst_io import write_str2txt
-from .re.re_baidubaike import ReBaidubaike
+from .re.config import constant
 
 
 class SpiderEntry(object):
@@ -20,33 +20,31 @@ class SpiderEntry(object):
             return None
         craw_count = 0
         self.urls.add_one_url(url)
-        self.urls.add_one_url('https://baike.baidu.com/item/软件/12053')
-        self.urls.add_one_url('https://baike.baidu.com/item/软件/12053')
-        self.urls.add_one_url('软件')
-        # for ul in self.urls.get_url_queue():
-        #     print(ul)
-        # return
 
         while self.urls.has_url():
             try:
-                if craw_count < 1:
+                if craw_count < 2:
                     # 获取当前爬取的url
                     current_url = self.urls.get_url()
-                    print('current page: ', parse.unquote(current_url))
+                    # print('current page: ', parse.unquote(current_url))
                     # 抓取当前网页的数据
-                    current_page = self.loader.download(current_url)
-                    if current_page is not None:
-                        # craw_urls = ReBaidubaike.get_next_crawler_urls(current_page)
-                        craw_urls = ['软件', 'https://baike.baidu.com/item/软件/12053']
+                    page_content = self.loader.download(current_url)
+                    if page_content is not None:
+                        # 解析当前网页的数据
+                        # 1，添加新的url到url调度器
+                        # 2，获取数据
+                        # 3，下载图片
+                        _parser = htmlparse.HtmlParse(constant.BAIDUBAIKE, page_content)
+                        craw_urls = _parser.parse()
                         self.urls.add_urls(craw_urls)
 
-                        print('当前页面待爬取的url')
-                        for cu in craw_urls:
+                        _parser.download_img()
+                        for cu in self.urls.get_url_queue():
                             print(parse.unquote(cu))
-                        print(self.urls.get_size())
-                        print('======结束')
+                        # print(self.urls.get_size())
+
                         # write_str2txt(current_page, None)
-                        # 解析当前网页的数据，保存需要的内容，并添加新的url到url调度器
+
                         craw_count += 1
                 else:
                     break

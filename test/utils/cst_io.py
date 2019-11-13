@@ -1,6 +1,8 @@
 # coding=utf-8
 import os
 from datetime import datetime
+import requests
+import base64
 
 EXPORT_DIR = 'export'
 
@@ -49,3 +51,21 @@ def read_txt(filename, fp=None, file_encoding='utf-8'):
             return f.read()
     except IOError as err:
         raise err
+
+
+def download_image(data_link, image_type):
+    try:
+        file_name = None
+        data = None
+        if image_type == '.jpg':
+            file_name = 'image' + image_type
+            response_img = requests.get(data_link)
+            data = response_img.content
+        elif image_type == 'base64':
+            data = base64.b64decode(data_link)
+
+        with open(file_name, 'wb') as f:
+            f.write(data)
+    except Exception as err:
+        raise err
+    pass

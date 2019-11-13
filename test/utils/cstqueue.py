@@ -33,9 +33,14 @@ class CstQueue(object):
     def get_queue(self):
         return self.queue
 
-    def any(self, element):
+    def has(self, element):
+        # flag = False
+        # for itm in self.queue:
+        #     if itm == element:
+        #         flag = True
+        # return flag
+
         def compare_two(t1):
-            # print(t1, element)
             return t1 == element
 
         exits_arr = filter(compare_two, self.queue)

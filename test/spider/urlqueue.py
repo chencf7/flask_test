@@ -1,4 +1,5 @@
 # coding=utf-8
+from urllib import parse
 from test.utils.cstqueue import CstQueue
 
 
@@ -14,14 +15,14 @@ class UrlManager(object):
     def add_one_url(self, url):
         if url is None:
             return
-        print('添加url：', url)
-        if self.new_queue.any(url):
-            print('======存在url======')
-        if (not self.new_queue.any(url)) and url not in self.old_queue:
-            print('======添加')
+        # if self.new_queue.has(url):
+        #     print('======存在url======{}'.format(parse.unquote(url)))
+        if (not self.new_queue.has(url)) and url not in self.old_queue:
+            # print('======添加：{}'.format(parse.unquote(url)))
             self.new_queue.in_queue(url)
         else:
-            print('~~~~~~没有添加')
+            pass
+            # print('~~~~~~没有添加')
 
     def add_urls(self, urls):
         if urls is None or len(urls) == 0:
