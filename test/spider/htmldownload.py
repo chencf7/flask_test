@@ -2,18 +2,12 @@
 import requests
 
 from test.re.common import ReUtil
+from test.utils.util import compose_two
 
 
 # def exact_file():
 #     yield ReUtil.exact_script_style()
 #     yield ReUtil.exact_linefeed()
-
-# 函数组合，支持两个函数，组合函数从右向左执行
-def compose_two(f, g):
-    # def fg(x):
-    #     f(g(x))
-    # return fg
-    return lambda x: f(g(x))
 
 
 class HtmlPageLoader(object):

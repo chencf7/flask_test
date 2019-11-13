@@ -1,5 +1,5 @@
 .idea
 venv
-test/export
+test/export/*
 __pycache__
 /*.pyc
