@@ -37,3 +37,13 @@ class ReBaidubaike(object):
 
 
 
+    @staticmethod
+    def download_images(data):
+        new_urls = re.findall(ReBaidubaike.__bk_image, data)
+        for u in new_urls:
+            print(u)
+        pass
+
+
+
+
